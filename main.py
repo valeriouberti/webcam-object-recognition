@@ -34,7 +34,7 @@ while ret:
                     (0, 255, 0),
                     2,
                 )
-        cv2.imshow("YOLOv8 Detection", frame)
+        cv2.imshow("YOLOv11 Detection", frame)
         if cv2.waitKey(1) & 0xFF == ord("q"):
             break
 
